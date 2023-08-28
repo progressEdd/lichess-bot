@@ -204,6 +204,7 @@ def main():
     # Create Arena
     # create_arena(arena_name, description_title, entry_code, start_date, start_hour, start_minute, start_period, rated)
     arena_url = driver.current_url
+    print("the arena is created at:",arena_url)
 
 if __name__ == "__main__":
     main()

@@ -4793,10 +4793,10 @@ JavaScript warning: https://lichess1.org/assets/_2OdhND/javascripts/fipr.js, lin
 1693231332161	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152398878, errorCode: 2, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
- Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1693098010689	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
+JavaScript warning: https://lichess1.org/assets/_2OdhND/compiled/lobby.min.js, line 17: Script terminated by timeout at:
+Ze/this.flushHooks/<@https://lichess1.org/assets/_2OdhND/compiled/lobby.min.js:17:845
+
+amically enable window occlusion 0
 1693098010976	Marionette	INFO	Listening on port 65078
 WebDriver BiDi listening on ws://127.0.0.1:65072
 Read port: 65078
@@ -4817,3 +4817,4 @@ JavaScript warning: https://lichess1.org/assets/_2OdhND/javascripts/fipr.js, lin
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1693231329983	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152398878, errorCode: 2, reason: error
 console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1693235836800	Marionette	INFO	Stopped listening on port 65078
